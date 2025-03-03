@@ -24,6 +24,12 @@
   padding: 10px;
   list-style:none
 }
+h1 i {
+  color: red;
+}
+h2 {
+  margin-bottom: 20px;
+}
 
 @keyframes logo-spin {
   from {

@@ -60,7 +60,7 @@ function App() {
   return (
     <>
       <h1>
-        Some crazy facts about <i>Cats</i>
+        Some crazy facts about <i>Cats</i> 🐈‍⬛🐈
       </h1>
       <ul>
         {data?.map((item, i) => (
@@ -69,6 +69,7 @@ function App() {
           </li>
         ))}
       </ul>
+      {loading && <h2>Loading...</h2>}
     </>
   );
 }
